@@ -1,5 +1,5 @@
 import {
-  add, divide, multiply, sub,
+  add, areaOfCircle, circumference, divide, multiply, sub,
 } from '../src';
 
 describe('index.add() testing', () => {
@@ -23,5 +23,17 @@ describe('index.multiple() testing', () => {
 describe('index.divide() testing', () => {
   it('should divide two numbers', () => {
     expect(divide(25, 5)).toBe(5);
+  });
+});
+
+describe('index.circumference() testing', () => {
+  it('should calculate perimeter', () => {
+    circumference(5).toPrecision(31.42);
+  });
+});
+
+describe('index.areaOfCircle() testing', () => {
+  it('should caculate area of cirle', () => {
+    areaOfCircle(5).toPrecision(78.54);
   });
 });
