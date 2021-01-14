@@ -6,20 +6,23 @@ This is a demo to showcase build tools.
 
 ### IDE
 
-For this demo I used JetBrains' WebStorm. I chose to use typescript.
+For this demo I used [JetBrains'](https://www.jetbrains.com/) WebStorm. Other popular IDEs include [Visual Studio](https://visualstudio.microsoft.com/),
+[NetBeans](https://netbeans.org/), [Komodo IDE](https://www.activestate.com/products/komodo-ide/downloads/edit/), [Eclipse](https://www.eclipse.org/ide/), and more.
 
 ### Linter
 
-I use eslint with AirBnB style plugin to enforce consistency in style and formatting.
+For linting I used [ESLint](https://eslint.org/) with [AirBnB style plugin](https://github.com/airbnb/javascript) and
+[Prettier](https://prettier.io/). These tools allow me to develop code to adhere to a coding style standard, save me 
+time, and help reduce errors.
 
 ### Testing and TDD
 
-My application was developed using Test Driven Development with Jest for testing.
+My application was developed using Test Driven Development with [Jest](https://jestjs.io/) for testing.
 
 ### CI/CD Pipeline
 
-I have integrated this application with a git pipeline to run the linter and test harness to double check 
-if the code is up to standard.
+This project uses [GitHub Pages](https://pages.github.com/), to ensure ever push passes both the linter and test harness.
+You can the code for the pipeline in the `.github/workflows/pipeline.yml` file.
 
 For more advanced applications you can configure the pipeline to automatically deploy once it passes the linter,
 and test harness, and makes it easier to make changes to your application.
