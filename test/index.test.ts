@@ -19,8 +19,8 @@ describe("index.sub() testing", () => {
   });
 });
 
-describe("index.multiple() testing", () => {
-  it("should subtract two numbers", () => {
+describe("index.multiply() testing", () => {
+  it("should multiply two numbers", () => {
     expect(multiply(5, 5)).toBe(25);
   });
 });

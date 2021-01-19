@@ -37,6 +37,9 @@
         "ts": "never",
         "tsx": "never"
       }
-    ]
+    ],
+    "no-multi-assign": "off",
+    "no-void": "off",
+    "no-restricted-properties": "off"
   }
 }
